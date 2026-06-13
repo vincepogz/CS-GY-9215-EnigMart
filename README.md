@@ -14,6 +14,17 @@ This example project includes:
 - Examples demonstrating how to connect to different types of networks, including locally simulating OP mainnet.
 
 ## Usage
+### From root directory
+npm run dev          # Start Hardhat dev node
+hardhat test         # Run all tests (Solidity + TypeScript)
+hardhat test solidity # Solidity tests only
+npm run build        # Compile contracts
+
+### From /frontend directory
+cd frontend
+npm run dev          # Start Vite dev server at localhost:5173
+npm run build        # Build for production
+npm run lint         # Run ESLint
 
 ### Running Tests
 
