@@ -15,16 +15,21 @@ This example project includes:
 
 ## Usage
 ### From root directory
+
+```shell
 npm run dev          # Start Hardhat dev node
 hardhat test         # Run all tests (Solidity + TypeScript)
 hardhat test solidity # Solidity tests only
 npm run build        # Compile contracts
+```
 
+```shell
 ### From /frontend directory
 cd frontend
 npm run dev          # Start Vite dev server at localhost:5173
 npm run build        # Build for production
 npm run lint         # Run ESLint
+```
 
 ### Running Tests
 
